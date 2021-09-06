@@ -69,7 +69,7 @@ OPTS = [
                default='gnocchi',
                help='Prefix to namespace metric containers.'),
     cfg.StrOpt('swift_endpoint_type',
-               default='publicURL',
+               default='internal',
                help='Endpoint type to connect to Swift',),
     cfg.StrOpt('swift_service_type',
                default='object-store',
